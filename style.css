@@ -1,0 +1,190 @@
+
+/*Ajustes de responsividade
+
+@media (max-width:768px) {
+    .boximg {
+        flex: 1 1 48%;
+    
+    }
+}
+
+@media (max-width: 480px) {
+    .boximg {
+        flex: 1 1 100%;
+    }
+    .titulo {
+        font-size: 30px;
+    }
+}*/
+
+/*VÍDEOS*/
+header { /*cabeçalho*/
+    padding: 5px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 150px;
+    z-index: 9999;
+    box-shadow: 0 4px 8px rgba(26, 5, 69, 9.2);
+    background-color: rgb(15, 4, 98);
+    font-size: 30px;
+    font-family: 'Lucida Sans', sans-serif;
+    text-align: center;
+    flex-wrap: wrap;
+    }
+
+section{ 
+    width: 100%;
+    height: auto;
+    border: none;    
+    padding: 2px;
+    margin: 2px;
+}
+
+.seção{
+    width: 100%;
+    height: auto;
+    border: none;    
+    padding: 2px;
+    padding-top: 200px;
+    padding-bottom: 50px;
+    margin: 2px;
+
+}
+ footer {
+    background-color: rgb(15, 4, 98) ;
+    color: rgb(255, 255, 255);
+    padding: 25px;
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    position: fixed; 
+    bottom: 0; 
+    left: 0; 
+
+ }
+
+.video {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.video-item {
+    width: 30%;
+    height: auto;
+}
+
+.videobox {
+    width: 100%;
+    height: auto;
+}
+
+.videobox1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+
+.textodescri {
+    margin-top: 10px;
+    text-align: center;
+    color: black;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+
+}
+
+.youtube {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+/*IMAGENS*/
+.galeria{
+    display: flex; /*funciona de forma flexível*/
+    flex-wrap: wrap; /*permite que os objetos quebrem para a próxima linha*/
+    justify-content: space-between; /*distribue espaçamento entre artigos*/
+}
+
+.boximg{
+    flex: 1 1 23%;
+    min-height: 350px;
+    margin: 1%;
+    box-sizing: border-box;
+}
+
+.ajusteimg{
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+.tamanho{
+    width: 30%;
+    height: auto;
+    flex-wrap: wrap;
+    padding-top: 5px;
+}
+
+article, aside {
+    display: block; /* Garante que fiquem um abaixo do outro */
+    width: 100%;    /* Ocupam toda a largura */
+  }
+
+  .personalização {
+    border: 7px double blue;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .seção2{
+    width: 100%;
+    height: auto;
+    border: none;    
+    padding: 2px;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    margin: 2px;
+  }
+
+  .home{
+  width: 50px; 
+  height: auto;
+  }
+
+  .titulo{
+    flex-grow: 1; /* O item cresce para ocupar o espaço disponível */
+    color: aliceblue;
+    text-align: c;
+    margin-left: 5px; /* Espaçamento entre a imagem e o texto */
+    margin-right: 20px;
+    font-size: 25px;
+  }
+
+  /* Estilos do cabeçalho */
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: rgb(15, 4, 98); 
+}
+
+.seção3{
+    width: 100%;
+    height: auto;
+    border: none;    
+    padding: 2px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 2px;
+}
